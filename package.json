@@ -1,0 +1,25 @@
+{
+  "name": "jsong",
+  "description": "jsong",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "now dev"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "google": "^2.1.0",
+    "helmet": "^3.16.0"
+  },
+  "bugs": {
+    "url": "https://github.com/uetchy/jsong/issues"
+  },
+  "homepage": "https://github.com/uetchy/jsong",
+  "keywords": [
+    "jsong",
+    "google"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uetchy/jsong.git"
+  }
+}
