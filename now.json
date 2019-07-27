@@ -2,6 +2,6 @@
   "version": 2,
   "name": "jsong",
   "alias": "jsong",
-  "builds": [{ "src": "index.js", "use": "@now/node" }],
+  "builds": [{ "src": "/index.js", "use": "@now/node" }],
   "routes": [{ "src": "/(.*)", "dest": "/index.js" }]
 }

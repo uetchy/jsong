@@ -3,20 +3,25 @@
   "description": "jsong",
   "version": "0.0.0",
   "scripts": {
-    "dev": "now dev"
+    "dev": "now dev",
+    "test": "jest"
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "google": "^2.1.0",
-    "helmet": "^3.16.0"
+    "helmet": "^3.20.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "supertest": "^4.0.2"
   },
   "bugs": {
     "url": "https://github.com/uetchy/jsong/issues"
   },
   "homepage": "https://github.com/uetchy/jsong",
   "keywords": [
-    "jsong",
-    "google"
+    "google",
+    "jsong"
   ],
   "repository": {
     "type": "git",
